@@ -4,12 +4,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import LoadingBar from 'react-top-loading-bar'
  
 import { Container } from './styled'
-import { ChatButton, ChatInput } from '../../components/outros/inputs'
+import { ChatButton, ChatInput } from '../../outros/inputs'
 import { useState, useRef } from 'react'
 
 import Cookies from 'js-cookie';
 
-import Api from '../../service/api';
+import Api from '../../../service/api';
 import { useHistory } from 'react-router-dom';
 const api = new Api();
 

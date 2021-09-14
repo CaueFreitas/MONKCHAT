@@ -1,6 +1,6 @@
 
 import { Container } from './styled'
-import Cabecalho from '../../components/cabecalho'
+import Cabecalho from '../../cabecalho'
 import Conteudo from './conteudo'
 
 

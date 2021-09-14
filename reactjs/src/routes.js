@@ -1,8 +1,8 @@
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Login from './pages/login'
-import MonkChat from './pages/monkchat'
+import Login from '././components/pages/login'
+import MonkChat from '././components/pages/monkchat'
 
 
 
